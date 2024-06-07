@@ -1,0 +1,68 @@
+
+<!doctype html>
+
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        
+        <title> Formulario de Acceso </title>    
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Videojuegos & Desarrollo">
+        <meta name="description" content="Ejemplo de formulario de acceso basado en HTML5 y CSS">
+        <meta name="keywords" content="login,formulariode acceso html">
+        
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+        
+        <!-- Link hacia el archivo de estilos css -->
+        <link rel="stylesheet" href="css/login.css">
+        
+        <style type="text/css">
+            
+        </style>
+        
+        <script src="../Login/js/formulario.js"></script>
+        
+    </head>
+    
+    <body>
+    
+        <div id="contenedor">
+            
+            <div id="contenedorcentrado">
+                <div id="login">
+                    <form action="">
+                        <label for="usuario">Usuario</label>
+                        <input id="usuario" type="text" name="usuario" placeholder="Usuario" required>
+                        
+                        <label for="password">Contraseña</label>
+                        <input id="password" type="password" placeholder="Contraseña" name="password" required>
+                      
+                        <button type="button" onclick="validar()">validar</button>
+                    </form>
+                    
+                </div>
+                <div id="derecho">
+                    <div class="titulo">
+                        Café Los Baristas
+                    </div>
+                    <div>
+                        <img src="../Login/imagenes/cafe.gif" alt="imagencafe" width="400">
+                    </div>
+                    <hr>
+                    <div class="pie-form">
+                        <a href="registro.html">¿Olvidaste tu contraseña?</a>
+                        <a href="registro.html">¿No tenes Cuenta? REGISTRATE</a>
+                        <hr>
+                        <a href=>« Volver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

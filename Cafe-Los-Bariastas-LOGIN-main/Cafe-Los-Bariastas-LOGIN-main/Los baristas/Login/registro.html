@@ -1,0 +1,85 @@
+
+<!doctype html>
+
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        
+        <title> Formulario de Acceso </title>    
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="café sus locales y productos">
+        <meta name="description" content="Ejemplo de formulario de acceso basado en HTML5 y CSS">
+        <meta name="keywords" content="login,formulariode acceso html">
+        
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+        
+        <!-- Link hacia el archivo de estilos css -->
+        <link rel="stylesheet" href="css/login.css">
+        
+        <style type="text/css">
+            
+        </style>
+        
+        
+        
+    </head>
+    
+    <body>
+    
+        <div id="contenedor">
+            
+            <div id="contenedorcentrado">
+                <div id="login">
+                    <form action="../index.html">
+                        <label for="Nombre">Nombre</label>
+                        <input id="Nombre" type="text" name="Nombre" placeholder="Nombre" required>
+                        <span></span>
+                        
+                        <label for="Apellido">Apellido</label>
+                        <input id="Apellido" type="text" placeholder="Apellido" name="Apellido" required>
+                        <span></span>
+                        
+
+                        <label for="CorreoElectronico">Correo Electronico</label>
+                        <input id="CorreoElectronico" type="text" placeholder="CorreoElectronico" name="CorreoElectronico" required>
+                        <span></span>
+
+                        <label for="NumeroDeDni">DNI</label>
+                        <input id="NumeroDeDni" type="number" placeholder="NumeroDeDni" name="NumeroDeDni" required>
+                        <span></span>
+                        
+                        <label for="Telefono">Telefono</label>
+                        <input id="Telefono" type="number" placeholder="Telefono" name="Telefono" required>
+                        <span></span>
+                        
+                        <button type="submit" title="Registrate" name="Registrate">Registrate</button>
+                        
+                    </form>
+                    
+                    <script src="js/form-validation.js"></script>
+                    
+                </div>
+                <div id="derecho">
+                    <div class="titulo">
+                        Café Los Baristas
+                    </div>
+                    <div>
+                        <img src="../Login/imagenes/cafe.gif" alt="imagencafe" width="400">
+                    </div>
+                    <hr>
+                    <div class="pie-form">
+                       
+                        <hr>
+                        <a href="login.html">« Volver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
